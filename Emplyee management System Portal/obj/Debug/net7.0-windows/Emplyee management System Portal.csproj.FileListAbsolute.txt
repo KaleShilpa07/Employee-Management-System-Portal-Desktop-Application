@@ -1,0 +1,28 @@
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\bin\Debug\net7.0-windows\Emplyee management System Portal.exe
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\bin\Debug\net7.0-windows\Emplyee management System Portal.deps.json
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\bin\Debug\net7.0-windows\Emplyee management System Portal.runtimeconfig.json
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\bin\Debug\net7.0-windows\Emplyee management System Portal.dll
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\bin\Debug\net7.0-windows\Emplyee management System Portal.pdb
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee management System Portal.csproj.AssemblyReference.cache
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee_management_System_Portal.Properties.Resources.resources
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee management System Portal.csproj.GenerateResource.cache
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee management System Portal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee management System Portal.AssemblyInfoInputs.cache
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee management System Portal.AssemblyInfo.cs
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee management System Portal.csproj.CoreCompileInputs.cache
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee management System Portal.dll
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\refint\Emplyee management System Portal.dll
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee management System Portal.pdb
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee management System Portal.genruntimeconfig.cache
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\ref\Emplyee management System Portal.dll
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee_management_System_Portal.Salaries.resources
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee management System Portal.csproj.CopyComplete
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee_management_System_Portal.Employees1.resources
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee_management_System_Portal.Departmentes1.resources
+C:\Users\NTS-Shilpa Kale\Desktop\NTS Assignments\Assignments\Asp.net Core\Emplyee management System Portal\obj\Debug\net7.0-windows\Emplyee_management_System_Portal.Login1.resources
