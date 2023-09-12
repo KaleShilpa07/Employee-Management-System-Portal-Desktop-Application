@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NTS-Shilpa Kale\\Desktop\\NTS Assignments\\Assignments\\Asp.net Core\\Emplyee management System Portal\\Emplyee management System Portal.csproj": {}
+    "C:\\Users\\NTS-Shilpa Kale\\Source\\Repos\\EmployeePortal\\Emplyee management System Portal\\Emplyee management System Portal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NTS-Shilpa Kale\\Desktop\\NTS Assignments\\Assignments\\Asp.net Core\\Emplyee management System Portal\\Emplyee management System Portal.csproj": {
+    "C:\\Users\\NTS-Shilpa Kale\\Source\\Repos\\EmployeePortal\\Emplyee management System Portal\\Emplyee management System Portal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NTS-Shilpa Kale\\Desktop\\NTS Assignments\\Assignments\\Asp.net Core\\Emplyee management System Portal\\Emplyee management System Portal.csproj",
+        "projectUniqueName": "C:\\Users\\NTS-Shilpa Kale\\Source\\Repos\\EmployeePortal\\Emplyee management System Portal\\Emplyee management System Portal.csproj",
         "projectName": "Emplyee management System Portal",
-        "projectPath": "C:\\Users\\NTS-Shilpa Kale\\Desktop\\NTS Assignments\\Assignments\\Asp.net Core\\Emplyee management System Portal\\Emplyee management System Portal.csproj",
+        "projectPath": "C:\\Users\\NTS-Shilpa Kale\\Source\\Repos\\EmployeePortal\\Emplyee management System Portal\\Emplyee management System Portal.csproj",
         "packagesPath": "C:\\Users\\NTS-Shilpa Kale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NTS-Shilpa Kale\\Desktop\\NTS Assignments\\Assignments\\Asp.net Core\\Emplyee management System Portal\\obj\\",
+        "outputPath": "C:\\Users\\NTS-Shilpa Kale\\Source\\Repos\\EmployeePortal\\Emplyee management System Portal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
