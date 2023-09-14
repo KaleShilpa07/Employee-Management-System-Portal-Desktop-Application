@@ -136,7 +136,7 @@ namespace Emplyee_management_System_Portal
                     EmpCB.SelectedIndex = -1;
                     DayAttendTB.Text = "";
                     SalaryAmountTB.Text = "";
-
+                    //remaining changes(update SalaryAmountTB)
                 }
 
             }
@@ -221,6 +221,22 @@ namespace Emplyee_management_System_Portal
             ss.Show();
 
             this.Hide();
+        }
+        //remaing changes
+        public void TextBoxFilter()
+        {
+           
+            string InsertQuery = "Select * from SalaryTable where Employee = '"+ DayAttendTB.Text + "'";
+            InsertQuery = string.Format(InsertQuery);
+            CON.SetData(InsertQuery);
+            ShowSalaries();
+            
+        }
+        private void SearchBTN_Click(object sender, EventArgs e)
+        {
+            TextBoxFilter();
+
+
         }
     }
 }

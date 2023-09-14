@@ -41,6 +41,10 @@
             label1 = new Label();
             SalaryAmountTB = new TextBox();
             panel1 = new Panel();
+            label4 = new Label();
+            pictureBox5 = new PictureBox();
+            SearchBTN = new Button();
+            SearchTB = new TextBox();
             EmpCB = new ComboBox();
             DayAttendTB = new TextBox();
             pictureBox4 = new PictureBox();
@@ -50,16 +54,14 @@
             pictureBox3 = new PictureBox();
             pictureBox2 = new PictureBox();
             EmpLBL = new Label();
-            pictureBox6 = new PictureBox();
-            LogoutLBL = new Label();
             DeleteBTN = new Button();
             SalaryList = new DataGridView();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)SalaryList).BeginInit();
             SuspendLayout();
             // 
@@ -110,7 +112,7 @@
             panel2.Dock = DockStyle.Bottom;
             panel2.Location = new Point(0, 815);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1122, 15);
+            panel2.Size = new Size(1361, 15);
             panel2.TabIndex = 39;
             // 
             // label9
@@ -175,7 +177,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(291, 21);
+            label1.Location = new Point(35, 19);
             label1.Name = "label1";
             label1.Size = new Size(497, 32);
             label1.TabIndex = 0;
@@ -196,13 +198,67 @@
             // 
             // panel1
             // 
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel1.BackColor = Color.Teal;
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(pictureBox5);
+            panel1.Controls.Add(SearchBTN);
+            panel1.Controls.Add(SearchTB);
             panel1.Controls.Add(label1);
-            panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(1122, 77);
             panel1.TabIndex = 29;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = SystemColors.ButtonFace;
+            label4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.Teal;
+            label4.Location = new Point(1265, 19);
+            label4.Name = "label4";
+            label4.Size = new Size(87, 29);
+            label4.TabIndex = 99;
+            label4.Text = "Logout";
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.BackColor = SystemColors.ButtonFace;
+            pictureBox5.BackgroundImageLayout = ImageLayout.None;
+            pictureBox5.Cursor = Cursors.Hand;
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(1191, 12);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(68, 45);
+            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox5.TabIndex = 98;
+            pictureBox5.TabStop = false;
+            // 
+            // SearchBTN
+            // 
+            SearchBTN.BackColor = SystemColors.InactiveBorder;
+            SearchBTN.FlatAppearance.BorderColor = Color.Black;
+            SearchBTN.FlatAppearance.MouseDownBackColor = Color.Gray;
+            SearchBTN.FlatAppearance.MouseOverBackColor = Color.Pink;
+            SearchBTN.FlatStyle = FlatStyle.Flat;
+            SearchBTN.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            SearchBTN.ForeColor = Color.Teal;
+            SearchBTN.Location = new Point(880, 16);
+            SearchBTN.Name = "SearchBTN";
+            SearchBTN.Size = new Size(129, 34);
+            SearchBTN.TabIndex = 97;
+            SearchBTN.Text = "Search";
+            SearchBTN.UseVisualStyleBackColor = false;
+            SearchBTN.Click += SearchBTN_Click;
+            // 
+            // SearchTB
+            // 
+            SearchTB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            SearchTB.Location = new Point(595, 16);
+            SearchTB.Name = "SearchTB";
+            SearchTB.Size = new Size(279, 35);
+            SearchTB.TabIndex = 96;
             // 
             // EmpCB
             // 
@@ -239,7 +295,7 @@
             pictureBox1.BackgroundImageLayout = ImageLayout.None;
             pictureBox1.Cursor = Cursors.Hand;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(767, 87);
+            pictureBox1.Location = new Point(847, 87);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(68, 45);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -251,7 +307,7 @@
             SalaryLBL.AutoSize = true;
             SalaryLBL.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             SalaryLBL.ForeColor = Color.Teal;
-            SalaryLBL.Location = new Point(841, 92);
+            SalaryLBL.Location = new Point(921, 92);
             SalaryLBL.Name = "SalaryLBL";
             SalaryLBL.Size = new Size(80, 29);
             SalaryLBL.TabIndex = 63;
@@ -263,7 +319,7 @@
             DeptLBL.AutoSize = true;
             DeptLBL.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             DeptLBL.ForeColor = Color.Teal;
-            DeptLBL.Location = new Point(617, 92);
+            DeptLBL.Location = new Point(688, 92);
             DeptLBL.Name = "DeptLBL";
             DeptLBL.Size = new Size(144, 29);
             DeptLBL.TabIndex = 62;
@@ -275,7 +331,7 @@
             pictureBox3.BackgroundImageLayout = ImageLayout.None;
             pictureBox3.Cursor = Cursors.Hand;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(543, 87);
+            pictureBox3.Location = new Point(614, 87);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(68, 45);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
@@ -287,9 +343,9 @@
             pictureBox2.BackgroundImageLayout = ImageLayout.None;
             pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(323, 87);
+            pictureBox2.Location = new Point(353, 87);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(81, 45);
+            pictureBox2.Size = new Size(82, 45);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 59;
             pictureBox2.TabStop = false;
@@ -299,36 +355,12 @@
             EmpLBL.AutoSize = true;
             EmpLBL.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             EmpLBL.ForeColor = Color.Teal;
-            EmpLBL.Location = new Point(410, 92);
+            EmpLBL.Location = new Point(441, 92);
             EmpLBL.Name = "EmpLBL";
             EmpLBL.Size = new Size(122, 29);
             EmpLBL.TabIndex = 58;
             EmpLBL.Text = "Employee";
             EmpLBL.Click += EmpLBL_Click;
-            // 
-            // pictureBox6
-            // 
-            pictureBox6.BackgroundImageLayout = ImageLayout.None;
-            pictureBox6.Cursor = Cursors.Hand;
-            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(917, 87);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(68, 45);
-            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox6.TabIndex = 65;
-            pictureBox6.TabStop = false;
-            // 
-            // LogoutLBL
-            // 
-            LogoutLBL.AutoSize = true;
-            LogoutLBL.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            LogoutLBL.ForeColor = Color.Teal;
-            LogoutLBL.Location = new Point(991, 92);
-            LogoutLBL.Name = "LogoutLBL";
-            LogoutLBL.Size = new Size(87, 29);
-            LogoutLBL.TabIndex = 66;
-            LogoutLBL.Text = "Logout";
-            LogoutLBL.Click += LogoutLBL_Click;
             // 
             // DeleteBTN
             // 
@@ -365,11 +397,9 @@
             // 
             AutoScaleDimensions = new SizeF(14F, 29F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1122, 830);
+            ClientSize = new Size(1361, 830);
             Controls.Add(SalaryList);
             Controls.Add(DeleteBTN);
-            Controls.Add(LogoutLBL);
-            Controls.Add(pictureBox6);
             Controls.Add(pictureBox1);
             Controls.Add(SalaryLBL);
             Controls.Add(DeptLBL);
@@ -398,11 +428,11 @@
             Text = "Salaries";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)SalaryList).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -432,9 +462,10 @@
         private PictureBox pictureBox3;
         private PictureBox pictureBox2;
         private Label EmpLBL;
-        private PictureBox pictureBox6;
-        private Label LogoutLBL;
         private Button DeleteBTN;
         private DataGridView SalaryList;
+        private Button SearchBTN;
+        private TextBox SearchTB;
+        private Label label4;
     }
 }

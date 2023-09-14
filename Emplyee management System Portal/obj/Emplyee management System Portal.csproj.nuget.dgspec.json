@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NTS-Shilpa Kale\\Source\\Repos\\EmployeePortal\\Emplyee management System Portal\\Emplyee management System Portal.csproj": {}
+    "C:\\Users\\NTS-Shilpa Kale\\source\\repos\\EmployeePortal\\Emplyee management System Portal\\Emplyee management System Portal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NTS-Shilpa Kale\\Source\\Repos\\EmployeePortal\\Emplyee management System Portal\\Emplyee management System Portal.csproj": {
+    "C:\\Users\\NTS-Shilpa Kale\\source\\repos\\EmployeePortal\\Emplyee management System Portal\\Emplyee management System Portal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NTS-Shilpa Kale\\Source\\Repos\\EmployeePortal\\Emplyee management System Portal\\Emplyee management System Portal.csproj",
+        "projectUniqueName": "C:\\Users\\NTS-Shilpa Kale\\source\\repos\\EmployeePortal\\Emplyee management System Portal\\Emplyee management System Portal.csproj",
         "projectName": "Emplyee management System Portal",
-        "projectPath": "C:\\Users\\NTS-Shilpa Kale\\Source\\Repos\\EmployeePortal\\Emplyee management System Portal\\Emplyee management System Portal.csproj",
+        "projectPath": "C:\\Users\\NTS-Shilpa Kale\\source\\repos\\EmployeePortal\\Emplyee management System Portal\\Emplyee management System Portal.csproj",
         "packagesPath": "C:\\Users\\NTS-Shilpa Kale\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\NTS-Shilpa Kale\\Source\\Repos\\EmployeePortal\\Emplyee management System Portal\\obj\\",
         "projectStyle": "PackageReference",
